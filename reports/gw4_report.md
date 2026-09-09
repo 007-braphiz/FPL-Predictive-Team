@@ -5,11 +5,10 @@
 - **Source:** `snapshot`
 - **Captured:** 2026-09-09T05:37:00+00:00 (fetched) - upstream scrape covers up to GW1 only
 - **Completed gameweeks in this data:** 1
-- **Projecting:** GW4
+- **Projecting:** GW4-GW6
 - **Weight on this season's team form:** 17% (the remainder comes from the pre-season difficulty prior)
 
 > **Read before acting on this:**
-> - Live FPL API unreachable (ProxyError: HTTPSConnectionPool(host='fantasy.premierleague.com', port=443): Max retries exceeded with url: /api/bootstrap-static/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))). Fell back to the offline snapshot.
 > - Offline snapshot: player form/prices reflect the state after GW1. Prices and injury news drift daily -- re-run with --source live before committing transfers.
 
 ### Recommended GW4 line-up - 3-4-3
@@ -52,23 +51,23 @@
 
 ### Full squad
 
-| Pos | Player        | Club | £    | Fixture(s) | Start% | xP next | xP horizon |
-|-----|---------------|------|------|------------|--------|---------|------------|
-| GK  | Verbruggen    | BHA  | 4.5  | COV(A,2)   | 100%   | 3.55    | 3.55       |
-| GK  | Kinsky        | TOT  | 4.5  | EVE(H,3)   | 39%    | 1.32    | 1.32       |
-| DEF | Gabriel       | ARS  | 8.0  | SUN(A,3)   | 84%    | 4.07    | 4.07       |
-| DEF | Calafiori     | ARS  | 5.6  | SUN(A,3)   | 68%    | 3.10    | 3.10       |
-| DEF | Ajer          | BRE  | 4.5  | BOU(A,3)   | 64%    | 2.55    | 2.55       |
-| DEF | Thomas        | COV  | 4.0  | BHA(H,2)   | 42%    | 1.58    | 1.58       |
-| DEF | O'Shea        | IPS  | 4.0  | CRY(A,3)   | 42%    | 1.74    | 1.74       |
-| MID | B.Fernandes   | MUN  | 12.0 | MCI(H,4)   | 94%    | 4.73    | 4.73       |
-| MID | Mbeumo        | MUN  | 8.0  | MCI(H,4)   | 86%    | 3.92    | 3.92       |
-| MID | M.Sangaré     | BRE  | 5.6  | BOU(A,3)   | 54%    | 2.27    | 2.27       |
-| MID | Groß          | BHA  | 5.5  | COV(A,2)   | 61%    | 2.61    | 2.61       |
-| MID | Slater        | HUL  | 4.5  | CHE(A,4)   | 45%    | 1.76    | 1.76       |
-| FWD | Haaland       | MCI  | 15.5 | MUN(A,4)   | 92%    | 4.80    | 4.80       |
-| FWD | João Pedro    | CHE  | 7.6  | HUL(H,2)   | 86%    | 4.96    | 4.96       |
-| FWD | Calvert-Lewin | LEE  | 6.0  | NEW(H,2)   | 84%    | 4.35    | 4.35       |
+| Pos | Player        | Club | £    | Fixture(s)                     | Start% | xP next | xP horizon |
+|-----|---------------|------|------|--------------------------------|--------|---------|------------|
+| GK  | Verbruggen    | BHA  | 4.5  | COV(A,2) + ARS(H,4) + SUN(A,3) | 100%   | 3.55    | 8.48       |
+| GK  | Kinsky        | TOT  | 4.5  | EVE(H,3) + AVL(H,3) + MUN(A,4) | 39%    | 1.32    | 3.15       |
+| DEF | Gabriel       | ARS  | 8.0  | SUN(A,3) + BHA(A,3) + LEE(H,2) | 84%    | 4.07    | 9.93       |
+| DEF | Calafiori     | ARS  | 5.6  | SUN(A,3) + BHA(A,3) + LEE(H,2) | 68%    | 3.10    | 7.48       |
+| DEF | Ajer          | BRE  | 4.5  | BOU(A,3) + CHE(H,4) + AVL(A,4) | 64%    | 2.55    | 6.33       |
+| DEF | Thomas        | COV  | 4.0  | BHA(H,2) + NFO(A,3) + NEW(H,2) | 42%    | 1.58    | 3.97       |
+| DEF | O'Shea        | IPS  | 4.0  | CRY(A,3) + EVE(A,3) + FUL(H,2) | 42%    | 1.74    | 4.60       |
+| MID | B.Fernandes   | MUN  | 12.0 | MCI(H,4) + FUL(A,3) + TOT(H,3) | 94%    | 4.73    | 12.79      |
+| MID | Mbeumo        | MUN  | 8.0  | MCI(H,4) + FUL(A,3) + TOT(H,3) | 86%    | 3.92    | 10.82      |
+| MID | M.Sangaré     | BRE  | 5.6  | BOU(A,3) + CHE(H,4) + AVL(A,4) | 54%    | 2.27    | 5.70       |
+| MID | Groß          | BHA  | 5.5  | COV(A,2) + ARS(H,4) + SUN(A,3) | 61%    | 2.61    | 6.28       |
+| MID | Slater        | HUL  | 4.5  | CHE(A,4) + NEW(A,3) + EVE(H,3) | 45%    | 1.76    | 4.65       |
+| FWD | Haaland       | MCI  | 15.5 | MUN(A,4) + SUN(H,2) + LIV(A,4) | 92%    | 4.80    | 13.15      |
+| FWD | João Pedro    | CHE  | 7.6  | HUL(H,2) + BRE(A,3) + BOU(H,3) | 86%    | 4.96    | 11.36      |
+| FWD | Calvert-Lewin | LEE  | 6.0  | NEW(H,2) + CRY(H,3) + ARS(A,5) | 84%    | 4.35    | 9.74       |
 
 ### Where the projected points come from
 
@@ -92,34 +91,34 @@
 
 ### Transfer options
 
-| # | Out                        | In                         | Hit | Net gain vs no move | Bank after |
-|---|----------------------------|----------------------------|-----|---------------------|------------|
-| 0 | -                          | -                          | 0   | +0.00               | £0.0m      |
-| 1 | M.Sangaré                  | Ampadu                     | 0   | +1.52               | £0.1m      |
-| 2 | Gabriel, M.Sangaré         | Lacroix, Szoboszlai        | -4  | -0.97               | £0.6m      |
-| 3 | Slater, Haaland, M.Sangaré | Rogers, Thiago, Szoboszlai | -8  | -3.20               | £3.1m      |
+| # | Out                      | In                        | Hit | Net gain vs no move | Bank after |
+|---|--------------------------|---------------------------|-----|---------------------|------------|
+| 0 | -                        | -                         | 0   | +0.00               | £0.0m      |
+| 1 | M.Sangaré                | Ampadu                    | 0   | +3.49               | £0.1m      |
+| 2 | Gabriel, M.Sangaré       | Szoboszlai, Guéhi         | -4  | +2.85               | £0.6m      |
+| 3 | Gabriel, Groß, M.Sangaré | Ndiaye, Szoboszlai, Guéhi | -8  | +2.82               | £0.1m      |
 
 _Net gain is measured over the whole projection horizon and already includes the point hit. Treat anything under about +1.0 as noise._
 
 ### Highest-projected players you do not own
 
-| Pos | Player     | Club | £   | Fixture(s) | Owned | xP next | xP horizon |
-|-----|------------|------|-----|------------|-------|---------|------------|
-| MID | Szoboszlai | LIV  | 7.0 | FUL(H,2)   | 43.2% | 4.86    | 4.86       |
-| MID | Rogers     | CHE  | 7.5 | HUL(H,2)   | 26.1% | 4.78    | 4.78       |
-| FWD | Thiago     | BRE  | 8.0 | BOU(A,3)   | 16.7% | 4.73    | 4.73       |
-| MID | Palmer     | CHE  | 9.5 | HUL(H,2)   | 15.6% | 4.58    | 4.58       |
-| DEF | Lacroix    | CHE  | 6.0 | HUL(H,2)   | 9.5%  | 4.50    | 4.50       |
-| DEF | Virgil     | LIV  | 6.5 | FUL(H,2)   | 19.6% | 4.50    | 4.50       |
-| DEF | Senesi     | TOT  | 6.0 | EVE(H,3)   | 7.6%  | 4.42    | 4.42       |
-| MID | Gakpo      | LIV  | 7.0 | FUL(H,2)   | 6.1%  | 4.34    | 4.34       |
-| MID | Saka       | ARS  | 9.5 | SUN(A,3)   | 10.4% | 4.20    | 4.20       |
-| MID | Stach      | LEE  | 6.0 | NEW(H,2)   | 2.3%  | 4.16    | 4.16       |
-| MID | Tavernier  | BOU  | 6.0 | BRE(H,3)   | 2.3%  | 4.14    | 4.14       |
-| DEF | Guéhi      | MCI  | 6.0 | MUN(A,4)   | 19.4% | 4.11    | 4.11       |
-| MID | Ndiaye     | EVE  | 6.0 | TOT(A,3)   | 16.1% | 4.06    | 4.06       |
-| MID | Wirtz      | LIV  | 7.5 | FUL(H,2)   | 11.5% | 4.00    | 4.00       |
-| MID | Enzo       | CHE  | 7.0 | HUL(H,2)   | 4.5%  | 3.97    | 3.97       |
+| Pos | Player      | Club | £   | Fixture(s)                     | Owned | xP next | xP horizon |
+|-----|-------------|------|-----|--------------------------------|-------|---------|------------|
+| FWD | Thiago      | BRE  | 8.0 | BOU(A,3) + CHE(H,4) + AVL(A,4) | 16.7% | 4.73    | 11.74      |
+| DEF | Guéhi       | MCI  | 6.0 | MUN(A,4) + SUN(H,2) + LIV(A,4) | 19.4% | 4.11    | 11.33      |
+| MID | Szoboszlai  | LIV  | 7.0 | FUL(H,2) + BOU(A,3) + MCI(H,4) | 43.2% | 4.86    | 11.15      |
+| MID | Rogers      | CHE  | 7.5 | HUL(H,2) + BRE(A,3) + BOU(H,3) | 26.1% | 4.78    | 10.92      |
+| DEF | Senesi      | TOT  | 6.0 | EVE(H,3) + AVL(H,3) + MUN(A,4) | 7.6%  | 4.42    | 10.46      |
+| MID | Palmer      | CHE  | 9.5 | HUL(H,2) + BRE(A,3) + BOU(H,3) | 15.6% | 4.58    | 10.35      |
+| DEF | Lacroix     | CHE  | 6.0 | HUL(H,2) + BRE(A,3) + BOU(H,3) | 9.5%  | 4.50    | 10.29      |
+| DEF | Virgil      | LIV  | 6.5 | FUL(H,2) + BOU(A,3) + MCI(H,4) | 19.6% | 4.50    | 10.26      |
+| MID | Ndiaye      | EVE  | 6.0 | TOT(A,3) + IPS(H,2) + HUL(A,2) | 16.1% | 4.06    | 10.25      |
+| MID | Tavernier   | BOU  | 6.0 | BRE(H,3) + LIV(H,4) + CHE(A,4) | 2.3%  | 4.14    | 10.22      |
+| MID | Saka        | ARS  | 9.5 | SUN(A,3) + BHA(A,3) + LEE(H,2) | 10.4% | 4.20    | 10.14      |
+| MID | Gibbs-White | NFO  | 8.0 | AVL(A,4) + COV(H,2) + CRY(A,3) | 8.6%  | 3.87    | 10.10      |
+| MID | Stach       | LEE  | 6.0 | NEW(H,2) + CRY(H,3) + ARS(A,5) | 2.3%  | 4.16    | 9.94       |
+| MID | Gakpo       | LIV  | 7.0 | FUL(H,2) + BOU(A,3) + MCI(H,4) | 6.1%  | 4.34    | 9.93       |
+| MID | Anderson    | MCI  | 6.4 | MUN(A,4) + SUN(H,2) + LIV(A,4) | 6.1%  | 3.73    | 9.63       |
 
 ### Team ratings
 

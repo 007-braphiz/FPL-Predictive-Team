@@ -14,7 +14,50 @@ It answers three questions before a deadline:
    against doing nothing, net of the 4-point hit, so the trade-off is visible
    instead of asserted.
 
-## Quick start
+## Running this from a phone
+
+You do not need a computer. Two options, both free.
+
+### Option A — GitHub Actions (no install at all)
+
+The projection runs on GitHub's servers and commits the result back here, where
+you read it as a normal page in your mobile browser.
+
+1. Open the repository → **Actions** tab → **FPL projection**.
+2. Tap **Run workflow**. Fill in free transfers, bank and (optionally) your FPL
+   team id, then confirm.
+3. Wait about two minutes. The summary appears on the run's own page, and the
+   full report is committed to `reports/gw<N>_report.md`.
+
+It also runs itself at 07:00 UTC on Thursdays and Fridays, so a fresh report is
+usually waiting before the deadline. Your FPL team id is the number in your
+team's web address: `fantasy.premierleague.com/entry/`**`1234567`**`/event/4`.
+
+Note that GitHub's scheduled runs can be delayed by several minutes under load,
+so trigger it manually if you are deciding close to the deadline.
+
+### Option B — Google Colab (interactive)
+
+[`notebooks/FPL_Predictive_Team.ipynb`](notebooks/FPL_Predictive_Team.ipynb) —
+open it on colab.research.google.com and tap play on each cell. It clones this
+repository, installs everything on Google's machine and runs the projection with
+live FPL data. Use this when you want to change the horizon or try different
+transfer counts and see the answer move.
+
+### Option C — Termux (a real terminal on Android)
+
+Possible, but the least reliable of the three: `pip install pulp` bundles the CBC
+solver as a pre-built binary, and I have not verified that a working build ships
+for Android's ARM64. If it does not, the optimiser will fail to solve while the
+projection itself still works. Try A or B first.
+
+### Reading the output on a small screen
+
+Add `--mobile` and the report is printed as short lines instead of wide tables,
+which wrap into nonsense on a phone. Both formats are always written to
+`reports/` regardless.
+
+## Quick start (on a computer)
 
 ```bash
 pip install -r requirements.txt
@@ -28,6 +71,9 @@ python -m fplpred.cli analyse --source live --horizon 3 --free-transfers 1
 
 # best possible 15 under budget, ignoring your current squad
 python -m fplpred.cli wildcard --budget 100.0
+
+# narrow output for a small screen
+python -m fplpred.cli analyse --source live --mobile
 ```
 
 Reports are printed and written to `reports/gw<N>_report.md`, with the full
@@ -188,6 +234,10 @@ fplpred/
   optimizer.py   XI, transfer and wildcard ILPs
   report.py      markdown rendering
   cli.py         command-line entry point
+.github/workflows/
+  fpl-projection.yml   runs the pipeline on GitHub's servers
+notebooks/
+  FPL_Predictive_Team.ipynb   Colab notebook, for running from a phone
 data/
   my_team.json   your squad
   snapshot/      offline copy of the current season

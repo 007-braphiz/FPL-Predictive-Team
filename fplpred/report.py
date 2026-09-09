@@ -217,3 +217,71 @@ def best_available(
         rows,
         ["Pos", "Player", "Club", "£", "Fixture(s)", "Owned", "xP next", "xP horizon"],
     )
+
+
+# ---------------------------------------------------------------------------
+# Phone-friendly output
+# ---------------------------------------------------------------------------
+
+def mobile_summary(
+    proj: pd.DataFrame,
+    sel: XISelection,
+    plans: list[TransferPlan],
+    bundle: DataBundle,
+    gw: int,
+    baseline: float,
+) -> str:
+    """A narrow summary that reads on a phone without horizontal scrolling.
+
+    The wide markdown tables elsewhere in this module are unusable on a 6-inch
+    screen -- they wrap into nonsense. This renders the same decisions as short
+    lines under 40 characters, which is the format most likely to be read on the
+    walk to the deadline.
+    """
+    by_id = {int(r.id): r for r in proj.itertuples()}
+    out = [
+        f"GW{gw} | {sel.formation} | proj {sel.xp:.1f} pts",
+        f"data: {bundle.source}, {bundle.matches_played()} GWs complete",
+        "",
+        "STARTING XI",
+    ]
+    for pid in sel.xi:
+        r = by_id[pid]
+        badge = "(C)" if pid == sel.captain else "(V)" if pid == sel.vice else "   "
+        venue = r.next_opponent.replace("(", " ").replace(")", "")
+        out.append(f" {badge} {r.name[:13]:<13} {venue:<11} {r.xp_next:4.1f}")
+
+    out += ["", "BENCH"]
+    for i, pid in enumerate(sel.bench, start=1):
+        r = by_id[pid]
+        out.append(f" {i}. {r.name[:13]:<13} {r.pos:<3} {r.xp_next:4.1f}")
+
+    out += ["", "CAPTAIN OPTIONS"]
+    for r in proj[proj["id"].isin(sel.xi)].nlargest(3, "xp_next").itertuples():
+        out.append(f" {r.name[:14]:<14} {r.p_start:3.0%} start  {2 * r.xp_next:4.1f}")
+
+    out += ["", "TRANSFERS"]
+    for plan in plans:
+        if plan.status != "Optimal" or plan.n_transfers == 0:
+            continue
+        gain = plan.net_objective - baseline
+        outs = "/".join(by_id[i].name[:10] for i in plan.out_ids)
+        ins = "/".join(by_id[i].name[:10] for i in plan.in_ids)
+        hit = f" (-{plan.hit})" if plan.hit else ""
+        out.append(f" {plan.n_transfers}x{hit}: {outs}")
+        out.append(f"     -> {ins}  {gain:+.1f}")
+    if len(out) and out[-1] == "TRANSFERS":
+        out.append(" none improve on holding")
+
+    flagged = proj[(proj["id"].isin(sel.xi + sel.bench)) & (proj["availability"] < 1.0)]
+    if len(flagged):
+        out += ["", "FLAGGED"]
+        for r in flagged.itertuples():
+            note = (r.news or "no detail")[:34]
+            out.append(f" {r.name[:13]:<13} {r.availability:3.0%}  {note}")
+
+    if bundle.warnings:
+        out += ["", "WARNINGS"]
+        for w in bundle.warnings:
+            out.append(f" - {w[:120]}")
+    return "\n".join(out)

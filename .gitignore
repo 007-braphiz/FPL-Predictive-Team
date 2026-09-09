@@ -4,9 +4,6 @@ __pycache__/
 venv/
 .DS_Store
 data/live/
-# Generated reports are disposable; the GW4 baseline is kept as a reference
-# for what the engine produced on the snapshot committed alongside it.
-reports/*.md
+# Markdown reports are committed so they can be read on a phone straight from
+# GitHub. The full projection CSV is regenerable and stays out of history.
 reports/*.csv
-!reports/.gitkeep
-!reports/gw4_report.md

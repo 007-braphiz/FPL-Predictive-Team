@@ -1,0 +1,114 @@
+name: FPL projection
+
+# Runs the whole pipeline on GitHub's servers so no local machine is needed.
+# Tap Actions -> FPL projection -> Run workflow from a phone browser, or let the
+# schedule fire before each deadline. The reports are committed back to this
+# branch, where GitHub renders them as readable pages on mobile.
+
+on:
+  workflow_dispatch:
+    inputs:
+      horizon:
+        description: 'Gameweeks to project'
+        required: false
+        default: '3'
+      free_transfers:
+        description: 'Free transfers available'
+        required: false
+        default: '1'
+      bank:
+        description: 'Money in the bank, in millions (e.g. 0.5)'
+        required: false
+        default: '0.0'
+      max_transfers:
+        description: 'Most transfers to consider'
+        required: false
+        default: '3'
+      entry_id:
+        description: 'Optional FPL team id, to re-import your squad first'
+        required: false
+        default: ''
+  schedule:
+    # 07:00 UTC Thursday and Friday: after midweek team news, before a
+    # Friday/Saturday deadline. GitHub runs cron in UTC and may delay a job by
+    # several minutes under load, so do not rely on this for a late decision.
+    - cron: '0 7 * * 4,5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fpl-projection
+  cancel-in-progress: false
+
+jobs:
+  project:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check the FPL API is reachable
+        id: api
+        run: |
+          # The run is still useful without the API -- it falls back to the
+          # committed snapshot -- but the report must say which happened, so
+          # record it rather than letting a silent fallback look like fresh data.
+          if curl -sS -m 20 -o /dev/null -w '%{http_code}' \
+               https://fantasy.premierleague.com/api/bootstrap-static/ | grep -q 200; then
+            echo "reachable=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "reachable=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::FPL API unreachable from this runner; using the committed snapshot."
+          fi
+
+      - name: Refresh the snapshot
+        if: steps.api.outputs.reachable == 'true'
+        run: python scripts/refresh.py
+
+      - name: Import squad from the FPL API
+        if: steps.api.outputs.reachable == 'true' && inputs.entry_id != ''
+        run: |
+          python -m fplpred.cli import-team \
+            --entry "${{ inputs.entry_id }}" \
+            --gw "$(python -c 'from fplpred import data as D; print(D.load_snapshot().next_gw)')" \
+            --free-transfers "${{ inputs.free_transfers || 1 }}"
+
+      - name: Run the projection
+        run: |
+          python -m fplpred.cli analyse \
+            --source auto \
+            --horizon "${{ inputs.horizon || 3 }}" \
+            --free-transfers "${{ inputs.free_transfers || 1 }}" \
+            --bank "${{ inputs.bank || 0.0 }}" \
+            --max-transfers "${{ inputs.max_transfers || 3 }}" \
+            --mobile | tee run.log
+
+      - name: Put the summary on the run page
+        run: |
+          {
+            echo '## FPL projection'
+            echo
+            echo '```'
+            sed -n '1,/^\[written\]/p' run.log | sed '$d'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the reports
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/*.md data/snapshot/ data/my_team.json
+          if git diff --cached --quiet; then
+            echo 'nothing changed'
+            exit 0
+          fi
+          git commit -m "Projection run $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

@@ -116,14 +116,18 @@ def cmd_analyse(args: argparse.Namespace) -> int:
         "",
     ]
     text = "\n".join(parts)
+    mobile = R.mobile_summary(proj, selection, plans, bundle, gw, baseline)
 
     REPORTS_DIR.mkdir(exist_ok=True)
     out_md = REPORTS_DIR / f"gw{gw}_report.md"
     out_md.write_text(text)
+    out_mobile = REPORTS_DIR / f"gw{gw}_mobile.md"
+    out_mobile.write_text("# GW%d summary\n\n```\n%s\n```\n" % (gw, mobile))
     proj.to_csv(REPORTS_DIR / f"gw{gw}_projections.csv", index=False)
 
-    print(text)
+    print(mobile if args.mobile else text)
     print(f"\n[written] {out_md}")
+    print(f"[written] {out_mobile}")
     print(f"[written] {REPORTS_DIR / f'gw{gw}_projections.csv'}")
     return 0
 
@@ -204,6 +208,9 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--max-transfers", type=int, default=3)
     p.add_argument("--top", type=int, default=15,
                    help="how many unowned players to list")
+    p.add_argument("--mobile", action="store_true",
+                   help="print the narrow phone-readable summary instead of "
+                        "the full report (both are still written to reports/)")
     p.set_defaults(func=cmd_analyse)
 
     p = sub.add_parser("wildcard", parents=[common], help="best 15 from scratch")
