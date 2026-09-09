@@ -1,0 +1,6 @@
+{
+  "source": "github:vaastav/Fantasy-Premier-League/2026-27",
+  "season": "2026-27",
+  "captured_at": "2026-09-09T05:37:00+00:00 (fetched) - upstream scrape covers up to GW1 only",
+  "note": "Mirror snapshot fetched because this environment's network policy blocks fantasy.premierleague.com. Player form, prices and injury flags reflect the state after GW1; fixtures and difficulty ratings cover the whole season and are unaffected. Run scripts/refresh.py (live) from a machine with API access before acting on prices."
+}

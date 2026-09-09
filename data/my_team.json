@@ -1,0 +1,24 @@
+{
+  "_comment": "Squad read from the GW4 'Pick Team' screenshot. Prices are as shown in the app on capture. Set selling_price per player once known (FPL sells at purchase price plus half of any rise, rounded down) so the transfer optimiser budgets correctly; when it is null the optimiser falls back to the current market price.",
+  "entry_id": null,
+  "gameweek": 4,
+  "bank": 0.0,
+  "free_transfers": 1,
+  "squad": [
+    {"id": 109, "name": "Verbruggen",    "pos": "GK",  "club": "BHA", "screenshot_price": 4.5,  "selling_price": null},
+    {"id": 496, "name": "Kinsky",        "pos": "GK",  "club": "TOT", "screenshot_price": 4.5,  "selling_price": null},
+    {"id": 4,   "name": "Gabriel",       "pos": "DEF", "club": "ARS", "screenshot_price": 8.0,  "selling_price": null},
+    {"id": 8,   "name": "Calafiori",     "pos": "DEF", "club": "ARS", "screenshot_price": 5.7,  "selling_price": null},
+    {"id": 87,  "name": "Ajer",          "pos": "DEF", "club": "BRE", "screenshot_price": 4.5,  "selling_price": null},
+    {"id": 173, "name": "Thomas",        "pos": "DEF", "club": "COV", "screenshot_price": 4.0,  "selling_price": null},
+    {"id": 304, "name": "O'Shea",        "pos": "DEF", "club": "IPS", "screenshot_price": 4.0,  "selling_price": null},
+    {"id": 426, "name": "B.Fernandes",   "pos": "MID", "club": "MUN", "screenshot_price": 12.0, "selling_price": null},
+    {"id": 427, "name": "Mbeumo",        "pos": "MID", "club": "MUN", "screenshot_price": 7.9,  "selling_price": null},
+    {"id": 565, "name": "M.Sangaré",     "pos": "MID", "club": "BRE", "screenshot_price": 5.7,  "selling_price": null},
+    {"id": 124, "name": "Groß",          "pos": "MID", "club": "BHA", "screenshot_price": 5.5,  "selling_price": null},
+    {"id": 290, "name": "Slater",        "pos": "MID", "club": "HUL", "screenshot_price": 4.5,  "selling_price": null},
+    {"id": 411, "name": "Haaland",       "pos": "FWD", "club": "MCI", "screenshot_price": 15.5, "selling_price": null},
+    {"id": 165, "name": "João Pedro",    "pos": "FWD", "club": "CHE", "screenshot_price": 7.7,  "selling_price": null},
+    {"id": 346, "name": "Calvert-Lewin", "pos": "FWD", "club": "LEE", "screenshot_price": 6.0,  "selling_price": null}
+  ]
+}
