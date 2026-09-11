@@ -3,7 +3,7 @@
 ## Data provenance
 
 - **Source:** `live`
-- **Captured:** 2026-09-10T11:58:15+00:00
+- **Captured:** 2026-09-11T11:57:14+00:00
 - **Completed gameweeks in this data:** 3
 - **Projecting:** GW4-GW6
 - **Weight on this season's team form:** 38% (the remainder comes from the pre-season difficulty prior)
@@ -53,7 +53,7 @@
 | GK  | Verbruggen    | BHA  | 4.5  | COV(A,2) + ARS(H,4) + SUN(A,3) | 100%   | 3.17    | 7.41       |
 | GK  | Kinsky        | TOT  | 4.5  | EVE(H,3) + AVL(H,3) + MUN(A,4) | 59%    | 2.03    | 4.76       |
 | DEF | Gabriel       | ARS  | 8.0  | SUN(A,3) + BHA(A,3) + LEE(H,2) | 89%    | 4.40    | 11.12      |
-| DEF | Calafiori     | ARS  | 5.7  | SUN(A,3) + BHA(A,3) + LEE(H,2) | 79%    | 3.79    | 9.61       |
+| DEF | Calafiori     | ARS  | 5.8  | SUN(A,3) + BHA(A,3) + LEE(H,2) | 79%    | 3.79    | 9.61       |
 | DEF | Ajer          | BRE  | 4.5  | BOU(A,3) + CHE(H,4) + AVL(A,4) | 76%    | 2.80    | 7.15       |
 | DEF | Thomas        | COV  | 4.0  | BHA(H,2) + NFO(A,3) + NEW(H,2) | 61%    | 2.65    | 6.55       |
 | DEF | O'Shea        | IPS  | 4.0  | CRY(A,3) + EVE(A,3) + FUL(H,2) | 61%    | 2.15    | 5.56       |
@@ -92,7 +92,7 @@
 |---|--------------------------|-----------------------------|-----|---------------------|------------|
 | 0 | -                        | -                           | 0   | +0.00               | £0.0m      |
 | 1 | Ajer                     | Mitchell                    | 0   | +2.15               | £0.0m      |
-| 2 | Calafiori, M.Sangaré     | Tavernier, N.Williams       | -4  | +0.97               | £0.4m      |
+| 2 | Calafiori, M.Sangaré     | Tavernier, N.Williams       | -4  | +0.97               | £0.5m      |
 | 3 | Gabriel, Ajer, M.Sangaré | Tavernier, Tarkowski, Guéhi | -8  | -0.23               | £0.2m      |
 
 _Net gain is measured over the whole projection horizon and already includes the point hit. Treat anything under about +1.0 as noise._
@@ -103,18 +103,18 @@ _Net gain is measured over the whole projection horizon and already includes the
 |-----|---------------|------|-----|--------------------------------|-------|---------|------------|
 | MID | Saka          | ARS  | 9.5 | SUN(A,3) + BHA(A,3) + LEE(H,2) | 11.4% | 4.53    | 11.90      |
 | MID | Gibbs-White   | NFO  | 7.9 | AVL(A,4) + COV(H,2) + CRY(A,3) | 9.4%  | 4.45    | 11.77      |
-| FWD | Thiago        | BRE  | 7.9 | BOU(A,3) + CHE(H,4) + AVL(A,4) | 11.7% | 4.57    | 11.56      |
-| MID | Tavernier     | BOU  | 6.0 | BRE(H,3) + LIV(H,4) + CHE(A,4) | 3.3%  | 4.71    | 11.48      |
-| MID | Palmer        | CHE  | 9.6 | HUL(H,2) + BRE(A,3) + BOU(H,3) | 23.2% | 4.95    | 11.29      |
+| FWD | Thiago        | BRE  | 7.9 | BOU(A,3) + CHE(H,4) + AVL(A,4) | 11.4% | 4.57    | 11.56      |
+| MID | Tavernier     | BOU  | 6.0 | BRE(H,3) + LIV(H,4) + CHE(A,4) | 3.4%  | 4.71    | 11.48      |
+| MID | Palmer        | CHE  | 9.7 | HUL(H,2) + BRE(A,3) + BOU(H,3) | 24.7% | 4.95    | 11.29      |
 | MID | Szoboszlai    | LIV  | 7.0 | FUL(H,2) + BOU(A,3) + MCI(H,4) | 38.4% | 4.88    | 11.11      |
-| DEF | Guéhi         | MCI  | 6.0 | MUN(A,4) + SUN(H,2) + LIV(A,4) | 18.6% | 3.96    | 11.02      |
-| MID | Rogers        | CHE  | 7.6 | HUL(H,2) + BRE(A,3) + BOU(H,3) | 29.6% | 4.64    | 10.64      |
-| DEF | Tarkowski     | EVE  | 6.0 | TOT(A,3) + IPS(H,2) + HUL(A,2) | 11.3% | 4.04    | 10.63      |
-| MID | Scott         | BOU  | 6.0 | BRE(H,3) + LIV(H,4) + CHE(A,4) | 4.7%  | 4.23    | 10.40      |
+| DEF | Guéhi         | MCI  | 6.0 | MUN(A,4) + SUN(H,2) + LIV(A,4) | 18.5% | 3.96    | 11.02      |
+| MID | Rogers        | CHE  | 7.6 | HUL(H,2) + BRE(A,3) + BOU(H,3) | 31.2% | 4.64    | 10.64      |
+| DEF | Tarkowski     | EVE  | 6.0 | TOT(A,3) + IPS(H,2) + HUL(A,2) | 11.4% | 4.04    | 10.63      |
+| MID | Scott         | BOU  | 6.1 | BRE(H,3) + LIV(H,4) + CHE(A,4) | 5.2%  | 4.23    | 10.40      |
 | DEF | N.Williams    | NFO  | 5.0 | AVL(A,4) + COV(H,2) + CRY(A,3) | 8.2%  | 3.87    | 10.18      |
 | DEF | Lacroix       | CHE  | 6.0 | HUL(H,2) + BRE(A,3) + BOU(H,3) | 8.1%  | 4.43    | 9.92       |
 | MID | Stach         | LEE  | 6.0 | NEW(H,2) + CRY(H,3) + ARS(A,5) | 2.8%  | 4.08    | 9.91       |
-| MID | Schade        | BRE  | 6.0 | BOU(A,3) + CHE(H,4) + AVL(A,4) | 3.9%  | 3.87    | 9.79       |
+| MID | Schade        | BRE  | 6.0 | BOU(A,3) + CHE(H,4) + AVL(A,4) | 3.8%  | 3.87    | 9.79       |
 | MID | Dewsbury-Hall | EVE  | 6.5 | TOT(A,3) + IPS(H,2) + HUL(A,2) | 4.5%  | 3.75    | 9.78       |
 
 ### Team ratings
