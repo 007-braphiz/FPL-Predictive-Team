@@ -1,7 +1,7 @@
 {
   "source": "fantasy.premierleague.com/api",
   "season": "2026-27",
-  "captured_at": "2026-09-11T11:57:13+00:00",
+  "captured_at": "2026-09-17T12:19:19+00:00",
   "events": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "deadline_time_epoch": 1787938200,
       "deadline_time_game_offset": 0,
       "highest_score": 161.0,
-      "is_previous": true,
+      "is_previous": false,
       "is_current": false,
       "is_next": false,
       "cup_leagues_created": true,
@@ -119,8 +119,8 @@
       "deadline_time_epoch": 1788543000,
       "deadline_time_game_offset": 0,
       "highest_score": 119.0,
-      "is_previous": false,
-      "is_current": true,
+      "is_previous": true,
+      "is_current": false,
       "is_next": false,
       "cup_leagues_created": true,
       "h2h_ko_matches_created": true,
@@ -168,36 +168,56 @@
       "name": "Gameweek 4",
       "deadline_time": "2026-09-12T12:30:00Z",
       "release_time": null,
-      "average_entry_score": 0,
-      "finished": false,
-      "data_checked": false,
-      "highest_scoring_entry": NaN,
+      "average_entry_score": 69,
+      "finished": true,
+      "data_checked": true,
+      "highest_scoring_entry": 267022.0,
       "deadline_time_epoch": 1789216200,
       "deadline_time_game_offset": 0,
-      "highest_score": NaN,
+      "highest_score": 151.0,
       "is_previous": false,
-      "is_current": false,
-      "is_next": true,
+      "is_current": true,
+      "is_next": false,
       "cup_leagues_created": true,
       "h2h_ko_matches_created": true,
-      "can_enter": true,
-      "can_manage": true,
+      "can_enter": false,
+      "can_manage": false,
       "released": true,
-      "ranked_count": 0,
+      "ranked_count": 10673913,
       "overrides": {
         "rules": {},
         "scoring": {},
         "element_types": [],
         "pick_multiplier": null
       },
-      "chip_plays": [],
-      "most_selected": NaN,
-      "most_transferred_in": NaN,
-      "top_element": NaN,
-      "top_element_info": null,
-      "transfers_made": 0,
-      "most_captained": NaN,
-      "most_vice_captained": NaN
+      "chip_plays": [
+        {
+          "chip_name": "bboost",
+          "num_played": 170070
+        },
+        {
+          "chip_name": "freehit",
+          "num_played": 328740
+        },
+        {
+          "chip_name": "wildcard",
+          "num_played": 760682
+        },
+        {
+          "chip_name": "3xc",
+          "num_played": 323226
+        }
+      ],
+      "most_selected": 165.0,
+      "most_transferred_in": 40.0,
+      "top_element": 124.0,
+      "top_element_info": {
+        "id": 124,
+        "points": 17
+      },
+      "transfers_made": 24092744,
+      "most_captained": 411.0,
+      "most_vice_captained": 165.0
     },
     {
       "id": 5,
@@ -213,11 +233,11 @@
       "highest_score": NaN,
       "is_previous": false,
       "is_current": false,
-      "is_next": false,
-      "cup_leagues_created": false,
-      "h2h_ko_matches_created": false,
-      "can_enter": false,
-      "can_manage": false,
+      "is_next": true,
+      "cup_leagues_created": true,
+      "h2h_ko_matches_created": true,
+      "can_enter": true,
+      "can_manage": true,
       "released": true,
       "ranked_count": 0,
       "overrides": {
