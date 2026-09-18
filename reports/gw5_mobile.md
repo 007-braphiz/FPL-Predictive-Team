@@ -29,8 +29,8 @@ CAPTAIN OPTIONS
  Mbeumo         92% start  10.2
 
 TRANSFERS
- 1x: Ajer
-     -> Bogle  +1.8
+ 1x: João Pedro
+     -> Thiago  +2.8
  2x (-4): João Pedro/O'Shea
      -> Barry/Guéhi  +2.2
  3x (-8): Ajer/João Pedro/M.Sangaré
