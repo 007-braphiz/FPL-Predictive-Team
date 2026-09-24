@@ -1,7 +1,7 @@
 {
   "source": "fantasy.premierleague.com/api",
   "season": "2026-27",
-  "captured_at": "2026-09-18T11:59:25+00:00",
+  "captured_at": "2026-09-24T12:25:38+00:00",
   "events": [
     {
       "id": 1,
@@ -119,7 +119,7 @@
       "deadline_time_epoch": 1788543000,
       "deadline_time_game_offset": 0,
       "highest_score": 119.0,
-      "is_previous": true,
+      "is_previous": false,
       "is_current": false,
       "is_next": false,
       "cup_leagues_created": true,
@@ -175,8 +175,8 @@
       "deadline_time_epoch": 1789216200,
       "deadline_time_game_offset": 0,
       "highest_score": 151.0,
-      "is_previous": false,
-      "is_current": true,
+      "is_previous": true,
+      "is_current": false,
       "is_next": false,
       "cup_leagues_created": true,
       "h2h_ko_matches_created": true,
@@ -224,11 +224,67 @@
       "name": "Gameweek 5",
       "deadline_time": "2026-09-18T17:30:00Z",
       "release_time": null,
+      "average_entry_score": 48,
+      "finished": true,
+      "data_checked": true,
+      "highest_scoring_entry": 2727735.0,
+      "deadline_time_epoch": 1789752600,
+      "deadline_time_game_offset": 0,
+      "highest_score": 126.0,
+      "is_previous": false,
+      "is_current": true,
+      "is_next": false,
+      "cup_leagues_created": true,
+      "h2h_ko_matches_created": true,
+      "can_enter": false,
+      "can_manage": false,
+      "released": true,
+      "ranked_count": 10833606,
+      "overrides": {
+        "rules": {},
+        "scoring": {},
+        "element_types": [],
+        "pick_multiplier": null
+      },
+      "chip_plays": [
+        {
+          "chip_name": "bboost",
+          "num_played": 135186
+        },
+        {
+          "chip_name": "freehit",
+          "num_played": 295196
+        },
+        {
+          "chip_name": "wildcard",
+          "num_played": 467900
+        },
+        {
+          "chip_name": "3xc",
+          "num_played": 226208
+        }
+      ],
+      "most_selected": 411.0,
+      "most_transferred_in": 480.0,
+      "top_element": 552.0,
+      "top_element_info": {
+        "id": 552,
+        "points": 17
+      },
+      "transfers_made": 18907524,
+      "most_captained": 411.0,
+      "most_vice_captained": 426.0
+    },
+    {
+      "id": 6,
+      "name": "Gameweek 6",
+      "deadline_time": "2026-10-10T10:00:00Z",
+      "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1789752600,
+      "deadline_time_epoch": 1791626400,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
@@ -246,48 +302,29 @@
         "element_types": [],
         "pick_multiplier": null
       },
-      "chip_plays": [],
+      "chip_plays": [
+        {
+          "chip_name": "bboost",
+          "num_played": 43906
+        },
+        {
+          "chip_name": "freehit",
+          "num_played": 41611
+        },
+        {
+          "chip_name": "wildcard",
+          "num_played": 198822
+        },
+        {
+          "chip_name": "3xc",
+          "num_played": 33070
+        }
+      ],
       "most_selected": NaN,
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
-      "most_captained": NaN,
-      "most_vice_captained": NaN
-    },
-    {
-      "id": 6,
-      "name": "Gameweek 6",
-      "deadline_time": "2026-10-10T10:00:00Z",
-      "release_time": null,
-      "average_entry_score": 0,
-      "finished": false,
-      "data_checked": false,
-      "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1791626400,
-      "deadline_time_game_offset": 0,
-      "highest_score": NaN,
-      "is_previous": false,
-      "is_current": false,
-      "is_next": false,
-      "cup_leagues_created": false,
-      "h2h_ko_matches_created": false,
-      "can_enter": false,
-      "can_manage": false,
-      "released": true,
-      "ranked_count": 0,
-      "overrides": {
-        "rules": {},
-        "scoring": {},
-        "element_types": [],
-        "pick_multiplier": null
-      },
-      "chip_plays": [],
-      "most_selected": NaN,
-      "most_transferred_in": NaN,
-      "top_element": NaN,
-      "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": 4611571,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -402,13 +439,13 @@
     {
       "id": 10,
       "name": "Gameweek 10",
-      "deadline_time": "2026-11-07T13:30:00Z",
+      "deadline_time": "2026-11-06T18:30:00Z",
       "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1794058200,
+      "deadline_time_epoch": 1793989800,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
@@ -438,13 +475,13 @@
     {
       "id": 11,
       "name": "Gameweek 11",
-      "deadline_time": "2026-11-21T13:30:00Z",
+      "deadline_time": "2026-11-21T11:00:00Z",
       "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1795267800,
+      "deadline_time_epoch": 1795258800,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
@@ -474,13 +511,13 @@
     {
       "id": 12,
       "name": "Gameweek 12",
-      "deadline_time": "2026-11-28T13:30:00Z",
+      "deadline_time": "2026-11-27T18:30:00Z",
       "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1795872600,
+      "deadline_time_epoch": 1795804200,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
