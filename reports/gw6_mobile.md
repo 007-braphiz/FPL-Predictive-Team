@@ -33,8 +33,8 @@ TRANSFERS
      -> Gonzalo  +1.3
  2x (-4): João Pedro/M.Sangaré
      -> Tavernier/Gonzalo  +1.1
- 3x (-8): João Pedro/Kinsky/M.Sangaré
-     -> Raya/Tavernier/Barry  -0.3
+ 3x (-8): Ajer/João Pedro/M.Sangaré
+     -> Tavernier/Barry/Guéhi  -0.7
 
 FLAGGED
  João Pedro    75%  Knee injury - 75% chance of playin
