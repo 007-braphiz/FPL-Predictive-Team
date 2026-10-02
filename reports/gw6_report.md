@@ -3,7 +3,7 @@
 ## Data provenance
 
 - **Source:** `live`
-- **Captured:** 2026-10-01T14:01:28+00:00
+- **Captured:** 2026-10-02T13:22:00+00:00
 - **Completed gameweeks in this data:** 5
 - **Projecting:** GW6-GW8
 - **Weight on this season's team form:** 50% (the remainder comes from the pre-season difficulty prior)
@@ -105,9 +105,9 @@ _Net gain is measured over the whole projection horizon and already includes the
 | MID | Gibbs-White | NFO  | 8.0 | CRY(A,3) + ARS(H,4) + IPS(A,2) | 15.7% | 4.96    | 11.78      |
 | MID | Tavernier   | BOU  | 6.1 | CHE(A,4) + SUN(H,3) + MUN(A,4) | 6.8%  | 4.47    | 11.50      |
 | FWD | Thiago      | BRE  | 7.8 | AVL(A,3) + LIV(H,4) + HUL(A,2) | 9.1%  | 4.48    | 10.96      |
-| DEF | Tarkowski   | EVE  | 6.2 | HUL(A,2) + CHE(H,4) + ARS(A,5) | 16.5% | 4.46    | 10.75      |
-| MID | Szoboszlai  | LIV  | 7.0 | MCI(H,4) + BRE(A,3) + BHA(H,3) | 32.8% | 4.26    | 10.52      |
-| MID | Schade      | BRE  | 6.2 | AVL(A,3) + LIV(H,4) + HUL(A,2) | 11.5% | 4.26    | 10.48      |
+| DEF | Tarkowski   | EVE  | 6.2 | HUL(A,2) + CHE(H,4) + ARS(A,5) | 16.6% | 4.46    | 10.75      |
+| MID | Szoboszlai  | LIV  | 7.0 | MCI(H,4) + BRE(A,3) + BHA(H,3) | 32.7% | 4.26    | 10.52      |
+| MID | Schade      | BRE  | 6.2 | AVL(A,3) + LIV(H,4) + HUL(A,2) | 11.6% | 4.26    | 10.48      |
 | DEF | Guéhi       | MCI  | 6.0 | LIV(A,4) + IPS(H,2) + AVL(A,3) | 18.2% | 3.59    | 10.46      |
 | MID | Rogers      | CHE  | 7.7 | BOU(H,3) + EVE(A,3) + TOT(H,2) | 40.5% | 4.25    | 10.43      |
 | MID | E.Le Fée    | SUN  | 5.7 | BHA(H,3) + BOU(A,3) + LEE(H,3) | 3.4%  | 4.38    | 10.43      |
