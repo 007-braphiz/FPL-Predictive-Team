@@ -3,7 +3,7 @@
 ## Data provenance
 
 - **Source:** `live`
-- **Captured:** 2026-10-15T12:18:01+00:00
+- **Captured:** 2026-10-16T12:00:20+00:00
 - **Completed gameweeks in this data:** 6
 - **Projecting:** GW7-GW9
 - **Weight on this season's team form:** 55% (the remainder comes from the pre-season difficulty prior)
@@ -102,20 +102,20 @@ _Net gain is measured over the whole projection horizon and already includes the
 | Pos | Player        | Club | £   | Fixture(s)                     | Owned | xP next | xP horizon |
 |-----|---------------|------|-----|--------------------------------|-------|---------|------------|
 | MID | Saka          | ARS  | 9.6 | NFO(A,3) + EVE(H,3) + LIV(A,4) | 16.7% | 4.80    | 12.49      |
-| MID | Tavernier     | BOU  | 6.1 | SUN(H,3) + MUN(A,4) + LEE(H,3) | 7.3%  | 4.79    | 11.34      |
-| MID | Gibbs-White   | NFO  | 8.0 | ARS(H,4) + IPS(A,2) + BRE(A,3) | 14.7% | 4.11    | 11.12      |
+| MID | Tavernier     | BOU  | 6.1 | SUN(H,3) + MUN(A,4) + LEE(H,3) | 7.4%  | 4.79    | 11.34      |
+| MID | Gibbs-White   | NFO  | 8.0 | ARS(H,4) + IPS(A,2) + BRE(A,3) | 14.3% | 4.11    | 11.12      |
 | DEF | Guéhi         | MCI  | 6.0 | IPS(H,2) + AVL(A,3) + BHA(H,3) | 17.9% | 4.75    | 10.91      |
 | DEF | Tarkowski     | EVE  | 6.2 | CHE(H,4) + ARS(A,5) + NEW(A,3) | 18.4% | 4.65    | 10.81      |
-| DEF | Van Hecke     | TOT  | 4.9 | COV(H,2) + CHE(A,4) + CRY(H,2) | 6.3%  | 4.66    | 10.69      |
-| MID | Palmer        | CHE  | 9.7 | EVE(A,3) + TOT(H,2) + MUN(H,4) | 25.4% | 3.95    | 10.46      |
-| FWD | Thiago        | BRE  | 7.8 | LIV(H,4) + HUL(A,2) + NFO(H,3) | 9.2%  | 4.11    | 10.41      |
+| DEF | Van Hecke     | TOT  | 4.9 | COV(H,2) + CHE(A,4) + CRY(H,2) | 6.4%  | 4.66    | 10.69      |
+| MID | Palmer        | CHE  | 9.7 | EVE(A,3) + TOT(H,2) + MUN(H,4) | 25.5% | 3.95    | 10.46      |
+| FWD | Thiago        | BRE  | 7.8 | LIV(H,4) + HUL(A,2) + NFO(H,3) | 9.1%  | 4.11    | 10.41      |
 | GK  | Raya          | ARS  | 6.1 | NFO(A,3) + EVE(H,3) + LIV(A,4) | 43.7% | 3.99    | 10.28      |
-| MID | Rogers        | CHE  | 7.9 | EVE(A,3) + TOT(H,2) + MUN(H,4) | 45.2% | 3.88    | 10.22      |
-| MID | Cherki        | MCI  | 7.9 | IPS(H,2) + AVL(A,3) + BHA(H,3) | 32.3% | 4.39    | 10.21      |
+| MID | Rogers        | CHE  | 7.9 | EVE(A,3) + TOT(H,2) + MUN(H,4) | 45.6% | 3.88    | 10.22      |
+| MID | Cherki        | MCI  | 7.9 | IPS(H,2) + AVL(A,3) + BHA(H,3) | 33.4% | 4.39    | 10.21      |
 | MID | E.Le Fée      | SUN  | 5.7 | BOU(A,3) + LEE(H,3) + COV(A,2) | 3.1%  | 3.83    | 10.18      |
-| MID | Semenyo       | MCI  | 8.3 | IPS(H,2) + AVL(A,3) + BHA(H,3) | 13.8% | 4.27    | 10.02      |
+| MID | Semenyo       | MCI  | 8.3 | IPS(H,2) + AVL(A,3) + BHA(H,3) | 14.0% | 4.27    | 10.02      |
 | MID | Stach         | LEE  | 6.0 | MUN(H,4) + SUN(A,3) + BOU(A,3) | 2.3%  | 4.07    | 9.84       |
-| MID | Dewsbury-Hall | EVE  | 6.6 | CHE(H,4) + ARS(A,5) + NEW(A,3) | 5.8%  | 4.22    | 9.81       |
+| MID | Dewsbury-Hall | EVE  | 6.6 | CHE(H,4) + ARS(A,5) + NEW(A,3) | 5.9%  | 4.22    | 9.81       |
 
 ### Team ratings
 
