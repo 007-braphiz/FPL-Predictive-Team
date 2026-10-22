@@ -1,7 +1,7 @@
 {
   "source": "fantasy.premierleague.com/api",
   "season": "2026-27",
-  "captured_at": "2026-10-16T12:00:20+00:00",
+  "captured_at": "2026-10-22T12:37:52+00:00",
   "events": [
     {
       "id": 1,
@@ -47,7 +47,7 @@
         "id": 115,
         "points": 17
       },
-      "transfers_made": 0,
+      "transfers_made": 0.0,
       "most_captained": 411.0,
       "most_vice_captained": 1.0
     },
@@ -103,7 +103,7 @@
         "id": 426,
         "points": 23
       },
-      "transfers_made": 11562127,
+      "transfers_made": 11562127.0,
       "most_captained": 411.0,
       "most_vice_captained": 1.0
     },
@@ -159,7 +159,7 @@
         "id": 204,
         "points": 15
       },
-      "transfers_made": 27412065,
+      "transfers_made": 27412065.0,
       "most_captained": 411.0,
       "most_vice_captained": 426.0
     },
@@ -215,7 +215,7 @@
         "id": 124,
         "points": 17
       },
-      "transfers_made": 24092744,
+      "transfers_made": 24092744.0,
       "most_captained": 411.0,
       "most_vice_captained": 165.0
     },
@@ -231,7 +231,7 @@
       "deadline_time_epoch": 1789752600,
       "deadline_time_game_offset": 0,
       "highest_score": 126.0,
-      "is_previous": true,
+      "is_previous": false,
       "is_current": false,
       "is_next": false,
       "cup_leagues_created": true,
@@ -266,12 +266,9 @@
       ],
       "most_selected": 411.0,
       "most_transferred_in": 480.0,
-      "top_element": 552.0,
-      "top_element_info": {
-        "id": 552,
-        "points": 17
-      },
-      "transfers_made": 18907524,
+      "top_element": NaN,
+      "top_element_info": null,
+      "transfers_made": 18907524.0,
       "most_captained": 411.0,
       "most_vice_captained": 426.0
     },
@@ -287,8 +284,8 @@
       "deadline_time_epoch": 1791626400,
       "deadline_time_game_offset": 0,
       "highest_score": 131.0,
-      "is_previous": false,
-      "is_current": true,
+      "is_previous": true,
+      "is_current": false,
       "is_next": false,
       "cup_leagues_created": true,
       "h2h_ko_matches_created": true,
@@ -327,7 +324,7 @@
         "id": 101,
         "points": 18
       },
-      "transfers_made": 19638667,
+      "transfers_made": 19638667.0,
       "most_captained": 411.0,
       "most_vice_captained": 1.0
     },
@@ -336,11 +333,67 @@
       "name": "Gameweek 7",
       "deadline_time": "2026-10-17T10:00:00Z",
       "release_time": null,
+      "average_entry_score": 59,
+      "finished": true,
+      "data_checked": true,
+      "highest_scoring_entry": 504619.0,
+      "deadline_time_epoch": 1792231200,
+      "deadline_time_game_offset": 0,
+      "highest_score": 122.0,
+      "is_previous": false,
+      "is_current": true,
+      "is_next": false,
+      "cup_leagues_created": true,
+      "h2h_ko_matches_created": true,
+      "can_enter": false,
+      "can_manage": false,
+      "released": true,
+      "ranked_count": 11063261,
+      "overrides": {
+        "rules": {},
+        "scoring": {},
+        "element_types": [],
+        "pick_multiplier": null
+      },
+      "chip_plays": [
+        {
+          "chip_name": "bboost",
+          "num_played": 179094
+        },
+        {
+          "chip_name": "freehit",
+          "num_played": 93126
+        },
+        {
+          "chip_name": "wildcard",
+          "num_played": 335228
+        },
+        {
+          "chip_name": "3xc",
+          "num_played": 724286
+        }
+      ],
+      "most_selected": 411.0,
+      "most_transferred_in": 399.0,
+      "top_element": 156.0,
+      "top_element_info": {
+        "id": 156,
+        "points": 15
+      },
+      "transfers_made": 12547022.0,
+      "most_captained": 411.0,
+      "most_vice_captained": 165.0
+    },
+    {
+      "id": 8,
+      "name": "Gameweek 8",
+      "deadline_time": "2026-10-23T17:30:00Z",
+      "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1792231200,
+      "deadline_time_epoch": 1792776600,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
@@ -363,43 +416,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
-      "most_captained": NaN,
-      "most_vice_captained": NaN
-    },
-    {
-      "id": 8,
-      "name": "Gameweek 8",
-      "deadline_time": "2026-10-23T17:30:00Z",
-      "release_time": null,
-      "average_entry_score": 0,
-      "finished": false,
-      "data_checked": false,
-      "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1792776600,
-      "deadline_time_game_offset": 0,
-      "highest_score": NaN,
-      "is_previous": false,
-      "is_current": false,
-      "is_next": false,
-      "cup_leagues_created": false,
-      "h2h_ko_matches_created": false,
-      "can_enter": false,
-      "can_manage": false,
-      "released": true,
-      "ranked_count": 0,
-      "overrides": {
-        "rules": {},
-        "scoring": {},
-        "element_types": [],
-        "pick_multiplier": null
-      },
-      "chip_plays": [],
-      "most_selected": NaN,
-      "most_transferred_in": NaN,
-      "top_element": NaN,
-      "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -435,7 +452,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -471,7 +488,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -507,7 +524,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -543,20 +560,20 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
     {
       "id": 13,
       "name": "Gameweek 13",
-      "deadline_time": "2026-12-02T18:30:00Z",
+      "deadline_time": "2026-12-01T18:30:00Z",
       "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1796236200,
+      "deadline_time_epoch": 1796149800,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
@@ -579,20 +596,20 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
     {
       "id": 14,
       "name": "Gameweek 14",
-      "deadline_time": "2026-12-05T13:30:00Z",
+      "deadline_time": "2026-12-05T11:00:00Z",
       "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1796477400,
+      "deadline_time_epoch": 1796468400,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
@@ -615,7 +632,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -651,20 +668,20 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
     {
       "id": 16,
       "name": "Gameweek 16",
-      "deadline_time": "2026-12-19T13:30:00Z",
+      "deadline_time": "2026-12-19T11:00:00Z",
       "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1797687000,
+      "deadline_time_epoch": 1797678000,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
@@ -687,7 +704,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -723,7 +740,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -759,7 +776,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -795,7 +812,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -831,7 +848,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -867,7 +884,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -903,7 +920,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -939,7 +956,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -975,7 +992,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1011,7 +1028,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1047,7 +1064,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1083,7 +1100,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1119,7 +1136,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1155,7 +1172,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1191,7 +1208,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1227,7 +1244,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1263,7 +1280,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1299,7 +1316,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1335,7 +1352,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1371,7 +1388,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1407,7 +1424,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1443,7 +1460,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1479,7 +1496,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": 0,
+      "transfers_made": NaN,
       "most_captained": NaN,
       "most_vice_captained": NaN
     }
