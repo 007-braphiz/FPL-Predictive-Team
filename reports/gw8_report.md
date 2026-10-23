@@ -3,7 +3,7 @@
 ## Data provenance
 
 - **Source:** `live`
-- **Captured:** 2026-10-22T12:37:53+00:00
+- **Captured:** 2026-10-23T12:17:25+00:00
 - **Completed gameweeks in this data:** 7
 - **Projecting:** GW8-GW10
 - **Weight on this season's team form:** 58% (the remainder comes from the pre-season difficulty prior)
@@ -58,7 +58,7 @@
 | DEF | Thomas        | COV  | 4.0  | FUL(H,2) + SUN(H,3) + EVE(A,3) | 77%    | 3.72    | 9.09       |
 | DEF | O'Shea        | IPS  | 4.0  | NFO(H,3) + HUL(A,2) + BOU(H,3) | 77%    | 2.89    | 7.26       |
 | MID | B.Fernandes   | MUN  | 11.8 | BOU(H,3) + CHE(A,4) + AVL(H,3) | 98%    | 5.06    | 12.76      |
-| MID | Mbeumo        | MUN  | 7.8  | BOU(H,3) + CHE(A,4) + AVL(H,3) | 94%    | 4.85    | 12.27      |
+| MID | Mbeumo        | MUN  | 7.9  | BOU(H,3) + CHE(A,4) + AVL(H,3) | 94%    | 4.85    | 12.27      |
 | MID | M.Sangaré     | BRE  | 5.5  | HUL(A,2) + NFO(H,3) + BHA(A,4) | 51%    | 2.47    | 6.32       |
 | MID | Groß          | BHA  | 6.2  | LIV(A,4) + MCI(A,5) + BRE(H,3) | 84%    | 3.55    | 9.28       |
 | MID | Slater        | HUL  | 4.5  | BRE(H,3) + IPS(H,2) + ARS(A,5) | 78%    | 2.75    | 6.76       |
@@ -101,21 +101,21 @@ _Net gain is measured over the whole projection horizon and already includes the
 
 | Pos | Player      | Club | £   | Fixture(s)                     | Owned | xP next | xP horizon |
 |-----|-------------|------|-----|--------------------------------|-------|---------|------------|
-| MID | Tavernier   | BOU  | 6.2 | MUN(A,4) + LEE(H,3) + IPS(A,2) | 9.8%  | 4.52    | 12.10      |
-| GK  | Raya        | ARS  | 6.1 | EVE(H,3) + LIV(A,4) + HUL(H,2) | 44.5% | 4.55    | 11.18      |
-| MID | Gibbs-White | NFO  | 7.9 | IPS(A,2) + BRE(A,3) + MCI(H,4) | 11.4% | 4.71    | 11.11      |
-| DEF | Tarkowski   | EVE  | 6.2 | ARS(A,5) + NEW(A,3) + COV(H,2) | 18.3% | 3.79    | 10.58      |
-| MID | Palmer      | CHE  | 9.7 | TOT(H,2) + MUN(H,4) + SUN(A,3) | 26.7% | 4.32    | 10.58      |
-| MID | Rogers      | CHE  | 8.0 | TOT(H,2) + MUN(H,4) + SUN(A,3) | 48.3% | 4.22    | 10.36      |
-| FWD | Thiago      | BRE  | 7.8 | HUL(A,2) + NFO(H,3) + BHA(A,4) | 8.8%  | 4.19    | 10.29      |
+| MID | Tavernier   | BOU  | 6.2 | MUN(A,4) + LEE(H,3) + IPS(A,2) | 11.5% | 4.52    | 12.10      |
+| GK  | Raya        | ARS  | 6.1 | EVE(H,3) + LIV(A,4) + HUL(H,2) | 45.0% | 4.55    | 11.18      |
+| MID | Gibbs-White | NFO  | 7.9 | IPS(A,2) + BRE(A,3) + MCI(H,4) | 11.8% | 4.71    | 11.11      |
+| DEF | Tarkowski   | EVE  | 6.2 | ARS(A,5) + NEW(A,3) + COV(H,2) | 18.2% | 3.79    | 10.58      |
+| MID | Palmer      | CHE  | 9.8 | TOT(H,2) + MUN(H,4) + SUN(A,3) | 27.6% | 4.32    | 10.58      |
+| MID | Rogers      | CHE  | 8.0 | TOT(H,2) + MUN(H,4) + SUN(A,3) | 48.9% | 4.22    | 10.36      |
+| FWD | Thiago      | BRE  | 7.8 | HUL(A,2) + NFO(H,3) + BHA(A,4) | 8.7%  | 4.19    | 10.29      |
 | MID | E.Le Fée    | SUN  | 5.7 | LEE(H,3) + COV(A,2) + CHE(H,4) | 2.9%  | 4.13    | 10.21      |
-| DEF | Van Hecke   | TOT  | 4.9 | CHE(A,4) + CRY(H,2) + LEE(A,3) | 6.8%  | 3.75    | 10.11      |
-| MID | Rice        | ARS  | 7.3 | EVE(H,3) + LIV(A,4) + HUL(H,2) | 11.3% | 4.09    | 9.99       |
-| FWD | Gonzalo     | FUL  | 6.1 | COV(A,2) + AVL(A,3) + NEW(H,3) | 6.8%  | 3.85    | 9.73       |
-| DEF | Virgil      | LIV  | 6.4 | BHA(H,3) + ARS(H,4) + CRY(A,3) | 15.3% | 3.90    | 9.73       |
+| DEF | Van Hecke   | TOT  | 4.9 | CHE(A,4) + CRY(H,2) + LEE(A,3) | 6.7%  | 3.75    | 10.11      |
+| MID | Rice        | ARS  | 7.3 | EVE(H,3) + LIV(A,4) + HUL(H,2) | 11.7% | 4.09    | 9.99       |
+| FWD | Gonzalo     | FUL  | 6.1 | COV(A,2) + AVL(A,3) + NEW(H,3) | 6.6%  | 3.85    | 9.73       |
+| DEF | Virgil      | LIV  | 6.4 | BHA(H,3) + ARS(H,4) + CRY(A,3) | 15.2% | 3.90    | 9.73       |
 | MID | Stach       | LEE  | 6.0 | SUN(A,3) + BOU(A,3) + TOT(H,2) | 2.3%  | 3.98    | 9.70       |
 | MID | Buendía     | AVL  | 5.9 | MCI(H,4) + FUL(H,2) + MUN(A,4) | 1.3%  | 3.95    | 9.66       |
-| FWD | Barry       | EVE  | 5.7 | ARS(A,5) + NEW(A,3) + COV(H,2) | 8.3%  | 3.23    | 9.66       |
+| FWD | Barry       | EVE  | 5.7 | ARS(A,5) + NEW(A,3) + COV(H,2) | 8.0%  | 3.23    | 9.66       |
 
 ### Team ratings
 

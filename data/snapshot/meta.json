@@ -1,7 +1,7 @@
 {
   "source": "fantasy.premierleague.com/api",
   "season": "2026-27",
-  "captured_at": "2026-10-22T12:37:52+00:00",
+  "captured_at": "2026-10-23T12:17:25+00:00",
   "events": [
     {
       "id": 1,
@@ -47,7 +47,7 @@
         "id": 115,
         "points": 17
       },
-      "transfers_made": 0.0,
+      "transfers_made": 0,
       "most_captained": 411.0,
       "most_vice_captained": 1.0
     },
@@ -103,7 +103,7 @@
         "id": 426,
         "points": 23
       },
-      "transfers_made": 11562127.0,
+      "transfers_made": 11562127,
       "most_captained": 411.0,
       "most_vice_captained": 1.0
     },
@@ -159,7 +159,7 @@
         "id": 204,
         "points": 15
       },
-      "transfers_made": 27412065.0,
+      "transfers_made": 27412065,
       "most_captained": 411.0,
       "most_vice_captained": 426.0
     },
@@ -215,7 +215,7 @@
         "id": 124,
         "points": 17
       },
-      "transfers_made": 24092744.0,
+      "transfers_made": 24092744,
       "most_captained": 411.0,
       "most_vice_captained": 165.0
     },
@@ -266,9 +266,12 @@
       ],
       "most_selected": 411.0,
       "most_transferred_in": 480.0,
-      "top_element": NaN,
-      "top_element_info": null,
-      "transfers_made": 18907524.0,
+      "top_element": 552.0,
+      "top_element_info": {
+        "id": 552,
+        "points": 17
+      },
+      "transfers_made": 18907524,
       "most_captained": 411.0,
       "most_vice_captained": 426.0
     },
@@ -324,7 +327,7 @@
         "id": 101,
         "points": 18
       },
-      "transfers_made": 19638667.0,
+      "transfers_made": 19638667,
       "most_captained": 411.0,
       "most_vice_captained": 1.0
     },
@@ -380,7 +383,7 @@
         "id": 156,
         "points": 15
       },
-      "transfers_made": 12547022.0,
+      "transfers_made": 12547022,
       "most_captained": 411.0,
       "most_vice_captained": 165.0
     },
@@ -411,12 +414,29 @@
         "element_types": [],
         "pick_multiplier": null
       },
-      "chip_plays": [],
+      "chip_plays": [
+        {
+          "chip_name": "bboost",
+          "num_played": 84489
+        },
+        {
+          "chip_name": "freehit",
+          "num_played": 52691
+        },
+        {
+          "chip_name": "wildcard",
+          "num_played": 129101
+        },
+        {
+          "chip_name": "3xc",
+          "num_played": 48366
+        }
+      ],
       "most_selected": NaN,
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 5746605,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -452,7 +472,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -488,7 +508,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -524,7 +544,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -560,7 +580,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -596,7 +616,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -632,7 +652,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -668,7 +688,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -704,7 +724,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -740,7 +760,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -776,7 +796,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -812,7 +832,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -848,7 +868,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -884,7 +904,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -920,7 +940,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -956,7 +976,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -992,7 +1012,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1028,7 +1048,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1064,7 +1084,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1100,7 +1120,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1136,7 +1156,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1172,7 +1192,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1208,7 +1228,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1244,7 +1264,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1280,7 +1300,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1316,7 +1336,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1352,7 +1372,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1388,7 +1408,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1424,7 +1444,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1460,7 +1480,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     },
@@ -1496,7 +1516,7 @@
       "most_transferred_in": NaN,
       "top_element": NaN,
       "top_element_info": null,
-      "transfers_made": NaN,
+      "transfers_made": 0,
       "most_captained": NaN,
       "most_vice_captained": NaN
     }
