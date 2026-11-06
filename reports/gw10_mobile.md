@@ -1,7 +1,7 @@
 # GW10 summary
 
 ```
-GW10 | 4-4-2 | proj 52.0 pts
+GW10 | 4-4-2 | proj 51.0 pts
 data: live, 9 GWs complete
 
 STARTING XI
@@ -10,9 +10,9 @@ STARTING XI
      B.Fernandes   AVL H,3      5.3
      Mbeumo        AVL H,3      5.3
      Calafiori     HUL H,2      4.8
-     Calvert-Lewin TOT H,3      4.1
      Groß          BRE H,3      3.9
      Verbruggen    BRE H,3      3.6
+     Calvert-Lewin TOT H,3      3.1
      O'Shea        BOU H,3      2.9
      M.Sangaré     BHA A,4      2.8
      Ajer          BHA A,4      2.8
@@ -37,6 +37,7 @@ TRANSFERS
      -> Tavernier/Van Hecke/Barry  +5.9
 
 FLAGGED
+ Calvert-Lewin 75%  Foot injury - 75% chance of playin
  Thomas        50%  Calf injury - 50% chance of playin
  João Pedro     0%  Thigh injury - Unknown return date
 ```
