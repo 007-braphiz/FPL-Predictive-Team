@@ -1,7 +1,7 @@
 {
   "source": "fantasy.premierleague.com/api",
   "season": "2026-27",
-  "captured_at": "2026-11-13T14:59:41+00:00",
+  "captured_at": "2026-11-19T16:10:35+00:00",
   "events": [
     {
       "id": 1,
@@ -918,13 +918,13 @@
     {
       "id": 21,
       "name": "Gameweek 21",
-      "deadline_time": "2027-01-16T13:30:00Z",
+      "deadline_time": "2027-01-16T11:00:00Z",
       "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1800106200,
+      "deadline_time_epoch": 1800097200,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,
@@ -990,13 +990,13 @@
     {
       "id": 23,
       "name": "Gameweek 23",
-      "deadline_time": "2027-01-30T13:30:00Z",
+      "deadline_time": "2027-01-30T11:00:00Z",
       "release_time": null,
       "average_entry_score": 0,
       "finished": false,
       "data_checked": false,
       "highest_scoring_entry": NaN,
-      "deadline_time_epoch": 1801315800,
+      "deadline_time_epoch": 1801306800,
       "deadline_time_game_offset": 0,
       "highest_score": NaN,
       "is_previous": false,

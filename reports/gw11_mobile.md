@@ -20,7 +20,7 @@ STARTING XI
 BENCH
  1. Kinsky        GK   3.1
  2. O'Shea        DEF  2.8
- 3. Thomas        DEF  1.7
+ 3. Thomas        DEF  2.5
  4. João Pedro    FWD  0.0
 
 CAPTAIN OPTIONS
@@ -32,11 +32,11 @@ TRANSFERS
  1x: João Pedro
      -> Barry  +5.2
  2x (-4): João Pedro/Thomas
-     -> Van Hecke/Barry  +6.2
+     -> Van Hecke/Barry  +5.9
  3x (-8): Ajer/João Pedro/M.Sangaré
      -> Tavernier/Van Hecke/Barry  +5.6
 
 FLAGGED
- Thomas        50%  Calf injury - 50% chance of playin
+ Thomas        75%  Calf injury - 75% chance of playin
  João Pedro     0%  Thigh injury - Unknown return date
 ```

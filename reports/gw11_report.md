@@ -3,7 +3,7 @@
 ## Data provenance
 
 - **Source:** `live`
-- **Captured:** 2026-11-13T14:59:41+00:00
+- **Captured:** 2026-11-19T16:10:36+00:00
 - **Completed gameweeks in this data:** 10
 - **Projecting:** GW11-GW13
 - **Weight on this season's team form:** 67% (the remainder comes from the pre-season difficulty prior)
@@ -32,7 +32,7 @@
 |---|-----|------------|------|----------|------|
 | 1 | GK  | Kinsky     | TOT  | IPS(H,2) | 3.08 |
 | 2 | DEF | O'Shea     | IPS  | TOT(A,3) | 2.76 |
-| 3 | DEF | Thomas     | COV  | CRY(H,2) | 1.69 |
+| 3 | DEF | Thomas     | COV  | CRY(H,2) | 2.54 |
 | 4 | FWD | João Pedro | CHE  | LEE(H,3) | 0.00 |
 
 ### Captaincy ranking
@@ -55,7 +55,7 @@
 | DEF | Gabriel         | ARS  | 8.1  | NEW(A,3) + MCI(H,4) + BRE(A,4) | 95%    | 5.10    | 12.39      |
 | DEF | Calafiori       | ARS  | 5.9  | NEW(A,3) + MCI(H,4) + BRE(A,4) | 83%    | 4.27    | 10.09      |
 | DEF | Ajer            | BRE  | 4.5  | EVE(H,3) + MUN(A,3) + ARS(H,4) | 89%    | 3.52    | 8.12       |
-| DEF | Thomas [50%]    | COV  | 4.0  | CRY(H,2) + LEE(A,3) + IPS(H,2) | 33%    | 1.69    | 3.98       |
+| DEF | Thomas [75%]    | COV  | 4.0  | CRY(H,2) + LEE(A,3) + IPS(H,2) | 50%    | 2.54    | 5.97       |
 | DEF | O'Shea          | IPS  | 4.0  | TOT(A,3) + AVL(H,3) + COV(A,2) | 82%    | 2.76    | 7.43       |
 | MID | B.Fernandes     | MUN  | 11.6 | LIV(A,4) + BRE(H,3) + NEW(A,3) | 90%    | 4.46    | 12.06      |
 | MID | Mbeumo          | MUN  | 7.9  | LIV(A,4) + BRE(H,3) + NEW(A,3) | 96%    | 4.19    | 11.35      |
@@ -83,7 +83,7 @@
 | M.Sangaré     | MID | +1.41 | +0.39 | +0.25  | +0.19 | +0.00 | +0.00 | +0.00 | +0.56  | +0.22 | -0.16 | 2.86  |
 | Slater        | MID | +1.80 | +0.36 | +0.26  | +0.16 | +0.00 | +0.00 | +0.00 | +0.32  | +0.13 | -0.18 | 2.85  |
 | O'Shea        | DEF | +1.79 | +0.16 | +0.09  | +0.59 | -0.52 | +0.00 | +0.00 | +0.53  | +0.20 | -0.08 | 2.76  |
-| Thomas        | DEF | +0.71 | +0.20 | +0.08  | +0.39 | -0.13 | +0.00 | +0.00 | +0.37  | +0.09 | -0.04 | 1.69  |
+| Thomas        | DEF | +1.07 | +0.31 | +0.12  | +0.59 | -0.19 | +0.00 | +0.00 | +0.56  | +0.14 | -0.06 | 2.54  |
 | João Pedro    | FWD | +0.00 | +0.00 | +0.00  | +0.00 | +0.00 | +0.00 | +0.00 | +0.00  | +0.00 | +0.00 | 0.00  |
 
 ### Transfer options
@@ -92,7 +92,7 @@
 |---|-----------------------------|-----------------------------|-----|---------------------|------------|
 | 0 | -                           | -                           | 0   | +0.00               | £0.0m      |
 | 1 | João Pedro                  | Barry                       | 0   | +5.21               | £1.9m      |
-| 2 | João Pedro, Thomas          | Van Hecke, Barry            | -4  | +6.15               | £0.8m      |
+| 2 | João Pedro, Thomas          | Van Hecke, Barry            | -4  | +5.91               | £0.8m      |
 | 3 | Ajer, João Pedro, M.Sangaré | Tavernier, Van Hecke, Barry | -8  | +5.63               | £0.0m      |
 
 _Net gain is measured over the whole projection horizon and already includes the point hit. Treat anything under about +1.0 as noise._
@@ -101,21 +101,21 @@ _Net gain is measured over the whole projection horizon and already includes the
 
 | Pos | Player      | Club | £   | Fixture(s)                     | Owned | xP next | xP horizon |
 |-----|-------------|------|-----|--------------------------------|-------|---------|------------|
-| MID | Tavernier   | BOU  | 6.7 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 31.4% | 4.79    | 11.96      |
-| DEF | Van Hecke   | TOT  | 5.1 | IPS(H,2) + SUN(A,3) + FUL(H,2) | 14.7% | 5.19    | 11.96      |
-| FWD | Barry       | EVE  | 5.7 | BRE(A,4) + LIV(H,4) + AVL(A,3) | 10.7% | 4.42    | 11.45      |
-| MID | E.Le Fée    | SUN  | 5.7 | AVL(A,3) + TOT(H,3) + LIV(A,4) | 2.8%  | 4.74    | 11.35      |
-| DEF | De Cuyper   | BHA  | 5.5 | HUL(A,2) + NEW(H,3) + BOU(A,4) | 47.8% | 4.58    | 10.94      |
+| MID | Tavernier   | BOU  | 6.7 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 31.7% | 4.79    | 11.96      |
+| DEF | Van Hecke   | TOT  | 5.1 | IPS(H,2) + SUN(A,3) + FUL(H,2) | 15.5% | 5.19    | 11.96      |
+| FWD | Barry       | EVE  | 5.7 | BRE(A,4) + LIV(H,4) + AVL(A,3) | 11.0% | 4.42    | 11.45      |
+| MID | E.Le Fée    | SUN  | 5.7 | AVL(A,3) + TOT(H,3) + LIV(A,4) | 2.9%  | 4.74    | 11.35      |
+| DEF | De Cuyper   | BHA  | 5.5 | HUL(A,2) + NEW(H,3) + BOU(A,4) | 48.3% | 4.58    | 10.94      |
 | MID | Palmer      | CHE  | 9.8 | LEE(H,3) + NFO(A,2) + CRY(H,2) | 28.3% | 4.25    | 10.85      |
-| MID | Gibbs-White | NFO  | 7.8 | BOU(A,4) + CHE(H,4) + HUL(A,2) | 9.3%  | 3.94    | 10.73      |
-| GK  | Raya        | ARS  | 6.2 | NEW(A,3) + MCI(H,4) + BRE(A,4) | 47.5% | 4.35    | 10.42      |
-| MID | Rogers      | CHE  | 8.2 | LEE(H,3) + NFO(A,2) + CRY(H,2) | 54.0% | 4.09    | 10.39      |
-| MID | Wirtz       | LIV  | 7.2 | MUN(H,3) + EVE(A,3) + SUN(H,2) | 5.6%  | 4.36    | 10.38      |
-| FWD | Evanilson   | BOU  | 6.5 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 23.8% | 4.12    | 10.35      |
-| MID | McGinn      | AVL  | 5.4 | SUN(H,2) + IPS(A,2) + EVE(H,3) | 3.6%  | 4.20    | 10.22      |
+| MID | Gibbs-White | NFO  | 7.8 | BOU(A,4) + CHE(H,4) + HUL(A,2) | 9.2%  | 3.94    | 10.73      |
+| GK  | Raya        | ARS  | 6.2 | NEW(A,3) + MCI(H,4) + BRE(A,4) | 47.6% | 4.35    | 10.42      |
+| MID | Rogers      | CHE  | 8.2 | LEE(H,3) + NFO(A,2) + CRY(H,2) | 54.1% | 4.09    | 10.39      |
+| MID | Wirtz       | LIV  | 7.2 | MUN(H,3) + EVE(A,3) + SUN(H,2) | 6.0%  | 4.36    | 10.38      |
+| FWD | Evanilson   | BOU  | 6.5 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 24.4% | 4.12    | 10.35      |
+| MID | McGinn      | AVL  | 5.5 | SUN(H,2) + IPS(A,2) + EVE(H,3) | 4.0%  | 4.20    | 10.22      |
 | MID | Rice        | ARS  | 7.5 | NEW(A,3) + MCI(H,4) + BRE(A,4) | 13.7% | 4.08    | 10.19      |
-| DEF | Hill        | BOU  | 5.6 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 3.0%  | 4.19    | 10.08      |
-| FWD | N.Jackson   | AVL  | 7.1 | SUN(H,2) + IPS(A,2) + EVE(H,3) | 31.2% | 4.08    | 9.94       |
+| DEF | Hill        | BOU  | 5.6 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 3.2%  | 4.19    | 10.08      |
+| FWD | N.Jackson   | AVL  | 7.1 | SUN(H,2) + IPS(A,2) + EVE(H,3) | 32.3% | 4.08    | 9.94       |
 
 ### Team ratings
 
