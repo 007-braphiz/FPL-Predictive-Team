@@ -3,7 +3,7 @@
 ## Data provenance
 
 - **Source:** `live`
-- **Captured:** 2026-11-19T16:10:36+00:00
+- **Captured:** 2026-11-20T15:50:28+00:00
 - **Completed gameweeks in this data:** 10
 - **Projecting:** GW11-GW13
 - **Weight on this season's team form:** 67% (the remainder comes from the pre-season difficulty prior)
@@ -101,21 +101,21 @@ _Net gain is measured over the whole projection horizon and already includes the
 
 | Pos | Player      | Club | £   | Fixture(s)                     | Owned | xP next | xP horizon |
 |-----|-------------|------|-----|--------------------------------|-------|---------|------------|
-| MID | Tavernier   | BOU  | 6.7 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 31.7% | 4.79    | 11.96      |
-| DEF | Van Hecke   | TOT  | 5.1 | IPS(H,2) + SUN(A,3) + FUL(H,2) | 15.5% | 5.19    | 11.96      |
-| FWD | Barry       | EVE  | 5.7 | BRE(A,4) + LIV(H,4) + AVL(A,3) | 11.0% | 4.42    | 11.45      |
+| MID | Tavernier   | BOU  | 6.7 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 32.0% | 4.79    | 11.96      |
+| DEF | Van Hecke   | TOT  | 5.1 | IPS(H,2) + SUN(A,3) + FUL(H,2) | 16.4% | 5.19    | 11.96      |
+| FWD | Barry       | EVE  | 5.7 | BRE(A,4) + LIV(H,4) + AVL(A,3) | 11.2% | 4.42    | 11.45      |
 | MID | E.Le Fée    | SUN  | 5.7 | AVL(A,3) + TOT(H,3) + LIV(A,4) | 2.9%  | 4.74    | 11.35      |
-| DEF | De Cuyper   | BHA  | 5.5 | HUL(A,2) + NEW(H,3) + BOU(A,4) | 48.3% | 4.58    | 10.94      |
-| MID | Palmer      | CHE  | 9.8 | LEE(H,3) + NFO(A,2) + CRY(H,2) | 28.3% | 4.25    | 10.85      |
-| MID | Gibbs-White | NFO  | 7.8 | BOU(A,4) + CHE(H,4) + HUL(A,2) | 9.2%  | 3.94    | 10.73      |
-| GK  | Raya        | ARS  | 6.2 | NEW(A,3) + MCI(H,4) + BRE(A,4) | 47.6% | 4.35    | 10.42      |
-| MID | Rogers      | CHE  | 8.2 | LEE(H,3) + NFO(A,2) + CRY(H,2) | 54.1% | 4.09    | 10.39      |
-| MID | Wirtz       | LIV  | 7.2 | MUN(H,3) + EVE(A,3) + SUN(H,2) | 6.0%  | 4.36    | 10.38      |
-| FWD | Evanilson   | BOU  | 6.5 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 24.4% | 4.12    | 10.35      |
-| MID | McGinn      | AVL  | 5.5 | SUN(H,2) + IPS(A,2) + EVE(H,3) | 4.0%  | 4.20    | 10.22      |
+| DEF | De Cuyper   | BHA  | 5.5 | HUL(A,2) + NEW(H,3) + BOU(A,4) | 48.8% | 4.58    | 10.94      |
+| MID | Palmer      | CHE  | 9.8 | LEE(H,3) + NFO(A,2) + CRY(H,2) | 28.2% | 4.25    | 10.85      |
+| MID | Gibbs-White | NFO  | 7.8 | BOU(A,4) + CHE(H,4) + HUL(A,2) | 9.1%  | 3.94    | 10.73      |
+| GK  | Raya        | ARS  | 6.2 | NEW(A,3) + MCI(H,4) + BRE(A,4) | 47.7% | 4.35    | 10.42      |
+| MID | Rogers      | CHE  | 8.2 | LEE(H,3) + NFO(A,2) + CRY(H,2) | 54.2% | 4.09    | 10.39      |
+| MID | Wirtz       | LIV  | 7.2 | MUN(H,3) + EVE(A,3) + SUN(H,2) | 6.4%  | 4.36    | 10.38      |
+| FWD | Evanilson   | BOU  | 6.5 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 24.9% | 4.12    | 10.35      |
+| MID | McGinn      | AVL  | 5.5 | SUN(H,2) + IPS(A,2) + EVE(H,3) | 4.3%  | 4.20    | 10.22      |
 | MID | Rice        | ARS  | 7.5 | NEW(A,3) + MCI(H,4) + BRE(A,4) | 13.7% | 4.08    | 10.19      |
 | DEF | Hill        | BOU  | 5.6 | NFO(H,3) + FUL(A,3) + BHA(H,4) | 3.2%  | 4.19    | 10.08      |
-| FWD | N.Jackson   | AVL  | 7.1 | SUN(H,2) + IPS(A,2) + EVE(H,3) | 32.3% | 4.08    | 9.94       |
+| FWD | N.Jackson   | AVL  | 7.2 | SUN(H,2) + IPS(A,2) + EVE(H,3) | 33.4% | 4.09    | 9.97       |
 
 ### Team ratings
 
